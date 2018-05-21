@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bb1bde29-7082-4f9c-8019-64f78fa5d546" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/curlie/spiders/curlie.py" beforeDir="false" afterPath="$PROJECT_DIR$/curlie/spiders/curlie.py" afterDir="false" />
-    </list>
+    <list default="true" id="bb1bde29-7082-4f9c-8019-64f78fa5d546" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -110,7 +108,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="670" />
     <option name="width" value="703" />
     <option name="height" value="735" />
@@ -190,8 +188,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1688988" />
       <window_info anchor="bottom" id="TODO" order="6" />
