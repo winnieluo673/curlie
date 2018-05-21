@@ -11,6 +11,7 @@ class CurlieSpider(CrawlSpider):
     rules =(
          Rule(LinkExtractor(allow=(r'https://curlie.org/News/[\s\S]*'),restrict_xpaths = ('//section[@class="children"]//div[@class="cat-item"]')), callback="parse_item" ,follow=True),#只爬News路径下的
         #Rule(LinkExtractor(restrict_xpaths=('//section[@class="children"]//div[@class="cat-item"]')),callback="parse_item", follow=True), #News子分类下的都爬
+        #Rule(LinkExtractor(allow=(r'[\s\S]*News[\s\S]*'),restrict_xpaths=('//section[@class="children"]//div[@class="cat-item"]')),callback="parse_item",follow=True),#url包含News的都要
     )
 
     def parse_item(self,response):
